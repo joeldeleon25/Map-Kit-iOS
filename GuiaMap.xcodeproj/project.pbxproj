@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50B819E26FA93950022747D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B819D26FA93950022747D /* AppDelegate.swift */; };
+		F50B81A026FA93950022747D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B819F26FA93950022747D /* SceneDelegate.swift */; };
+		F50B81A226FA93950022747D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81A126FA93950022747D /* ViewController.swift */; };
+		F50B81A526FA93950022747D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B81A326FA93950022747D /* Main.storyboard */; };
+		F50B81A726FA93960022747D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50B81A626FA93960022747D /* Assets.xcassets */; };
+		F50B81AA26FA93960022747D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B81A826FA93960022747D /* LaunchScreen.storyboard */; };
+		F50B81B526FA93970022747D /* GuiaMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81B426FA93970022747D /* GuiaMapTests.swift */; };
+		F50B81BF26FA93970022747D /* GuiaMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81BE26FA93970022747D /* GuiaMapUITests.swift */; };
+		F50B81C126FA93970022747D /* GuiaMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81C026FA93970022747D /* GuiaMapUITestsLaunchTests.swift */; };
+		F50B81CE26FA98D90022747D /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81CD26FA98D90022747D /* ItemListTableViewCell.swift */; };
+		F50B81D026FA99F20022747D /* UniTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81CF26FA99F20022747D /* UniTableViewController.swift */; };
+		F50B81D226FA9F990022747D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81D126FA9F990022747D /* MapViewController.swift */; };
+		F50B81D426FAA44D0022747D /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81D326FAA44D0022747D /* RestaurantTableViewController.swift */; };
+		F50B81D626FAA4610022747D /* MuseumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B81D526FAA4610022747D /* MuseumTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50B81B126FA93970022747D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50B819226FA93950022747D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50B819926FA93950022747D;
+			remoteInfo = GuiaMap;
+		};
+		F50B81BB26FA93970022747D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50B819226FA93950022747D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50B819926FA93950022747D;
+			remoteInfo = GuiaMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50B819A26FA93950022747D /* GuiaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50B819D26FA93950022747D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50B819F26FA93950022747D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F50B81A126FA93950022747D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F50B81A426FA93950022747D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50B81A626FA93960022747D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50B81A926FA93960022747D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50B81AB26FA93960022747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50B81B026FA93970022747D /* GuiaMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50B81B426FA93970022747D /* GuiaMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaMapTests.swift; sourceTree = "<group>"; };
+		F50B81BA26FA93970022747D /* GuiaMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuiaMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50B81BE26FA93970022747D /* GuiaMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaMapUITests.swift; sourceTree = "<group>"; };
+		F50B81C026FA93970022747D /* GuiaMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F50B81CD26FA98D90022747D /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
+		F50B81CF26FA99F20022747D /* UniTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniTableViewController.swift; sourceTree = "<group>"; };
+		F50B81D126FA9F990022747D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F50B81D326FAA44D0022747D /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		F50B81D526FAA4610022747D /* MuseumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50B819726FA93950022747D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81AD26FA93970022747D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81B726FA93970022747D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50B819126FA93950022747D = {
+			isa = PBXGroup;
+			children = (
+				F50B819C26FA93950022747D /* GuiaMap */,
+				F50B81B326FA93970022747D /* GuiaMapTests */,
+				F50B81BD26FA93970022747D /* GuiaMapUITests */,
+				F50B819B26FA93950022747D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50B819B26FA93950022747D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50B819A26FA93950022747D /* GuiaMap.app */,
+				F50B81B026FA93970022747D /* GuiaMapTests.xctest */,
+				F50B81BA26FA93970022747D /* GuiaMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50B819C26FA93950022747D /* GuiaMap */ = {
+			isa = PBXGroup;
+			children = (
+				F50B819D26FA93950022747D /* AppDelegate.swift */,
+				F50B819F26FA93950022747D /* SceneDelegate.swift */,
+				F50B81A126FA93950022747D /* ViewController.swift */,
+				F50B81A326FA93950022747D /* Main.storyboard */,
+				F50B81A626FA93960022747D /* Assets.xcassets */,
+				F50B81A826FA93960022747D /* LaunchScreen.storyboard */,
+				F50B81AB26FA93960022747D /* Info.plist */,
+				F50B81CD26FA98D90022747D /* ItemListTableViewCell.swift */,
+				F50B81CF26FA99F20022747D /* UniTableViewController.swift */,
+				F50B81D126FA9F990022747D /* MapViewController.swift */,
+				F50B81D326FAA44D0022747D /* RestaurantTableViewController.swift */,
+				F50B81D526FAA4610022747D /* MuseumTableViewController.swift */,
+			);
+			path = GuiaMap;
+			sourceTree = "<group>";
+		};
+		F50B81B326FA93970022747D /* GuiaMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50B81B426FA93970022747D /* GuiaMapTests.swift */,
+			);
+			path = GuiaMapTests;
+			sourceTree = "<group>";
+		};
+		F50B81BD26FA93970022747D /* GuiaMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50B81BE26FA93970022747D /* GuiaMapUITests.swift */,
+				F50B81C026FA93970022747D /* GuiaMapUITestsLaunchTests.swift */,
+			);
+			path = GuiaMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50B819926FA93950022747D /* GuiaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50B81C426FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMap" */;
+			buildPhases = (
+				F50B819626FA93950022747D /* Sources */,
+				F50B819726FA93950022747D /* Frameworks */,
+				F50B819826FA93950022747D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuiaMap;
+			productName = GuiaMap;
+			productReference = F50B819A26FA93950022747D /* GuiaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50B81AF26FA93970022747D /* GuiaMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50B81C726FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMapTests" */;
+			buildPhases = (
+				F50B81AC26FA93970022747D /* Sources */,
+				F50B81AD26FA93970022747D /* Frameworks */,
+				F50B81AE26FA93970022747D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50B81B226FA93970022747D /* PBXTargetDependency */,
+			);
+			name = GuiaMapTests;
+			productName = GuiaMapTests;
+			productReference = F50B81B026FA93970022747D /* GuiaMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50B81B926FA93970022747D /* GuiaMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50B81CA26FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMapUITests" */;
+			buildPhases = (
+				F50B81B626FA93970022747D /* Sources */,
+				F50B81B726FA93970022747D /* Frameworks */,
+				F50B81B826FA93970022747D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50B81BC26FA93970022747D /* PBXTargetDependency */,
+			);
+			name = GuiaMapUITests;
+			productName = GuiaMapUITests;
+			productReference = F50B81BA26FA93970022747D /* GuiaMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50B819226FA93950022747D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F50B819926FA93950022747D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F50B81AF26FA93970022747D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F50B819926FA93950022747D;
+					};
+					F50B81B926FA93970022747D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F50B819926FA93950022747D;
+					};
+				};
+			};
+			buildConfigurationList = F50B819526FA93950022747D /* Build configuration list for PBXProject "GuiaMap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50B819126FA93950022747D;
+			productRefGroup = F50B819B26FA93950022747D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50B819926FA93950022747D /* GuiaMap */,
+				F50B81AF26FA93970022747D /* GuiaMapTests */,
+				F50B81B926FA93970022747D /* GuiaMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50B819826FA93950022747D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50B81AA26FA93960022747D /* LaunchScreen.storyboard in Resources */,
+				F50B81A726FA93960022747D /* Assets.xcassets in Resources */,
+				F50B81A526FA93950022747D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81AE26FA93970022747D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81B826FA93970022747D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50B819626FA93950022747D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50B81CE26FA98D90022747D /* ItemListTableViewCell.swift in Sources */,
+				F50B81D226FA9F990022747D /* MapViewController.swift in Sources */,
+				F50B81D426FAA44D0022747D /* RestaurantTableViewController.swift in Sources */,
+				F50B81D026FA99F20022747D /* UniTableViewController.swift in Sources */,
+				F50B81A226FA93950022747D /* ViewController.swift in Sources */,
+				F50B81D626FAA4610022747D /* MuseumTableViewController.swift in Sources */,
+				F50B819E26FA93950022747D /* AppDelegate.swift in Sources */,
+				F50B81A026FA93950022747D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81AC26FA93970022747D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50B81B526FA93970022747D /* GuiaMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50B81B626FA93970022747D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50B81BF26FA93970022747D /* GuiaMapUITests.swift in Sources */,
+				F50B81C126FA93970022747D /* GuiaMapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50B81B226FA93970022747D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50B819926FA93950022747D /* GuiaMap */;
+			targetProxy = F50B81B126FA93970022747D /* PBXContainerItemProxy */;
+		};
+		F50B81BC26FA93970022747D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50B819926FA93950022747D /* GuiaMap */;
+			targetProxy = F50B81BB26FA93970022747D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50B81A326FA93950022747D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50B81A426FA93950022747D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50B81A826FA93960022747D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50B81A926FA93960022747D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50B81C226FA93970022747D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F50B81C326FA93970022747D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50B81C526FA93970022747D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuiaMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50B81C626FA93970022747D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuiaMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F50B81C826FA93970022747D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuiaMap.app/GuiaMap";
+			};
+			name = Debug;
+		};
+		F50B81C926FA93970022747D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuiaMap.app/GuiaMap";
+			};
+			name = Release;
+		};
+		F50B81CB26FA93970022747D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuiaMap;
+			};
+			name = Debug;
+		};
+		F50B81CC26FA93970022747D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCABB7K63J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.example.GuiaMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuiaMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50B819526FA93950022747D /* Build configuration list for PBXProject "GuiaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B81C226FA93970022747D /* Debug */,
+				F50B81C326FA93970022747D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50B81C426FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B81C526FA93970022747D /* Debug */,
+				F50B81C626FA93970022747D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50B81C726FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B81C826FA93970022747D /* Debug */,
+				F50B81C926FA93970022747D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50B81CA26FA93970022747D /* Build configuration list for PBXNativeTarget "GuiaMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B81CB26FA93970022747D /* Debug */,
+				F50B81CC26FA93970022747D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50B819226FA93950022747D /* Project object */;
+}
